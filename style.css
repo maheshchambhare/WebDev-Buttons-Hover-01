@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 
 * {
+  display: flexbox;
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 4px;
   background-color: #25252a;
@@ -40,7 +41,7 @@
 }
 
 .btn:hover {
-  box-shadow: inset 300px 0 0 0 #f9e506;
+  box-shadow: inset 300px 0 0 0.1px #f9e506;
   color: rgb(255, 0, 68);
 }
 
